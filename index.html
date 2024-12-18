@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>The Role of AI in Modern Coding Practices</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <h1 id="title">The Role of AI in Modern Coding Practices</h1>
+    <p id="description">I'm conducting a survey to explore how developers utilize AI tools in their coding workflows. The purpose is to understand the benefits, challenges, and overall opinions about the integration of AI in programming. Your feedback will help me identify trends and areas where AI can better support the developer community.</p>
+    <p>This survey should only take about 2–3 minutes to complete. Thank you for sharing your thoughts!</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">Enter your name: <input id="name" type="text" placeholder="John Doe" required/></label>
+        <label for="email" id="email-label">Enter your email: <input id="email" type="email" placeholder="johndoe@gmail.com" required/></label>
+      </fieldset>
+      <fieldset>
+        <label for="ai-use-frequency" id="number-label">On a scale of 1 to 10, how often do you use AI tools for coding? <input id="number" type="number" min="1" max="10" placeholder="5"/></label>
+      </fieldset>
+      <fieldset>
+        <label for="ai-use-case"> What is your primary use case for AI in coding?
+          <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Code generation</option>
+            <option value="2">Debugging</option>
+            <option value="3">Learning new concepts</option>
+            <option value="4">None of the above</option>
+          </select>
+      </fieldset>
+      <fieldset>
+        <legend>Do you believe AI tools make you more productive as a programmer?</legend>
+        </label>
+        <label for="ai-productivity"><input id="ai-productivity" type="radio" name="radio" value="yes" class="inline" checked/>Yes</label>
+        <label for="ai-productivity"><input id="ai-productivity" type="radio" name="radio" value="no" class="inline"/>No</label>
+      </fieldset>
+      <fieldset>
+        <legend>Which of the following AI tools have you used for coding? (Select all that apply)</legend>
+        <label for="ai-tools"><input id="ai-tools" type="checkbox" value="1" class="inline"/>ChatGPT</label>
+        <label for="ai-tools"><input id="ai-tools" type="checkbox" value="2" class="inline"/>GitHub Copilot
+</label>
+        <label for="ai-tools"><input id="ai-tools" type="checkbox" value="3" class="inline"/>TabNine</label>
+        <label for="ai-tools"><input id="ai-tools" type="checkbox" value="4" class="inline"/>Other: <input id="ai-tools" type="text" class="inline"/></label>
+      </fieldset>
+      <fieldset>
+        <label for="ai-future">What are your thoughts on the future of AI in programming? <textarea id="ai-future" rows="3"></textarea></label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit"/>
+    </form>
+  </body>
+</html>

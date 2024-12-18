@@ -1,0 +1,75 @@
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    background-color: #39005e;
+    color: white;
+    font-family: Arial;
+  }
+  
+  h1 {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  p {
+    margin: 1em;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 200px;
+    margin: 0 auto 0;
+    padding-bottom: 1em;
+    background-color: #d0bade;
+    color: #39005e;
+  }
+  
+  fieldset {
+    border: none;
+    border-bottom: 3px solid #af83cc
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  legend {
+    padding-top: 1em;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+    line-height: 150%;
+  }
+  
+  input, textarea {
+    background-color: #af83cc;
+    border: 1px solid #af83cc;
+  }
+  
+  input, textarea, select {
+    width: 100%;
+    margin: 10px 0 0 0;
+    padding: 0;
+    min-height: 2em;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: bottom;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 50%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #7a3ca3;
+  }
+  
