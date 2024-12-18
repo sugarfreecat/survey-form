@@ -4,4 +4,4 @@ This project is part of the <a href="https://www.freecodecamp.org/learn/2022/res
 <a href="https://sugarfreecat.github.io/survey-form/" target="_blank">Live demo</a>
 
 ## About Me
-I’m a budding web developer honing my front-end skills through the FreeCodeCamp curriculum. Check out my <a href="https://www.linkedin.com/in/giovanna-cf-sim%C3%B5es/" target="_blank">LinkedIn and <a href="https://github.com/sugarfreecat" target="_blank">Github</a> for more projects!
+I’m a budding web developer honing my front-end skills through the FreeCodeCamp curriculum. Check out my <a href="https://www.linkedin.com/in/giovanna-cf-sim%C3%B5es/" target="_blank">LinkedIn</a> and <a href="https://github.com/sugarfreecat" target="_blank">Github</a> for more projects!
